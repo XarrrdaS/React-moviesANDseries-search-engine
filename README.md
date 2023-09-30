@@ -19,9 +19,7 @@ This is what the category drop-down menu and the next series on the list look li
 ![Alt text](/screenshots/screenshot5.png?raw=true)
 Here you can see that I selected a movie category and typed in the title of the movie I wanted to browse, it brought up a list of movies most relevant to the string you entered in the search box.<br><br><br>
 ![Alt text](/screenshots/screenshot6.png?raw=true)
-Here is an example what happens when the application can't display any data about what you entered in the search box.<br>
-This text is animated, as like as loading circle when you searching something, category drop-down or when you click on a search box.
-
 Here's an example of what happens when an app can't display any data about what you typed in the search box.<br>
 This text is animated, as does the loading circle when you search movies/series, expand a category drop-down or click a search box.
+
 <sub>MADE WITH HEARTH 🖤</sub>
