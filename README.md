@@ -7,6 +7,6 @@ Obviously, app has searching engine for a movie or series by name, if a category
 The home page displays the best-rated movies/series.<br>
 Additionally, it has the function of clicking on a specific movie/series to display more data about it.
 
-![Alt text](/screenshots/screenshot.png?raw=true)
+![Alt text](/screenshots/screenshot.png?raw=true "Optional Title")
 
 <sub>MADE WITH HEARTH 🖤</sub>
