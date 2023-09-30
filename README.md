@@ -8,7 +8,7 @@ The home page displays the best-rated movies/series.<br>
 Additionally, it has the function of clicking on a specific movie/series to display more data about it.<br>
 The app includes some animations.
 <br><br>
-![Alt text](/screenshots/screenshot.png?raw=true "Optional Title")
+![Alt text](/screenshots/screenshot.png?raw=true)
 For example, this is a screenshot of the application after pressing the button responsible for displaying TV series.
 
 <sub>MADE WITH HEARTH 🖤</sub>
