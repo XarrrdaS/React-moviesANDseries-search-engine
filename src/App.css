@@ -1,0 +1,79 @@
+*{
+  font-family: 'Century Gothic', sans-serif;
+  scrollbar-width: auto;
+  scrollbar-color: #1c1f25 #3f8673;
+}
+
+*::-webkit-scrollbar {
+  width: .8rem;
+}
+
+*::-webkit-scrollbar-track {
+  background: #1c1f25;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #3f8673;
+}
+
+.App {
+  text-align: center;
+  background-color: #22252c;
+  min-height: 100vh;
+  box-sizing: border-box;
+  margin-left: 60px;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1c1f25;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+.movie-card {
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #21242c;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+  max-width: 100%;
+  margin-top: 16px;
+  max-height: 500px;
+}
+
+.movie-card h2 {
+  margin: 10px 0;
+  color: #4e9482;
+  text-decoration: underline;
+  letter-spacing: .15rem;
+  text-underline-offset: 5px;
+  word-wrap: break-word;
+}
+
+.movie-card p {
+  line-height: 1.5;
+  color: white;
+  word-wrap: break-word;
+}
+.page-button{
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  background-color: #4e9482;
+}

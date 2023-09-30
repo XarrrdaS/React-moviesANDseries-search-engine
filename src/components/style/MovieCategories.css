@@ -1,0 +1,94 @@
+button{
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.sidebar.fixed{
+    position: fixed;
+}
+
+.sidebar-inner{
+    top: 0;
+    left: 0;
+    width: 10rem;
+}
+
+.sidebar{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 100%;
+    background: #356c5d;
+    transition: width 0.4s;
+}
+
+.sidebar.open{
+    width: 10rem;
+    overflow-y: auto;
+}
+
+.sidebar-header{
+    display: flex;
+    align-items: center;
+    height: 72px;
+    background: rgb(0 0 0 / 15%);
+}
+
+.sidebar-burger{
+    width: 60px;
+    height: 72px;
+    display: grid;
+    place-items: center;
+    color: #f9f9f9;
+}
+
+.sidebar-menu{
+    display: grid;
+    padding: 10px;
+}
+
+.sidebar-button{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    font-size: 17px;
+    line-height: 1;
+    padding: 0 10px;
+    border-radius: 8px;
+    color: #f9f9f9;
+    opacity: 0.8;
+    transition: background-color .3s;
+}
+
+.active-category{
+    background-color: rgb(0 0 0 / 20%);
+}
+
+.sidebar-button:hover{
+    background: rgb(0 0 0 / 30%);
+    opacity: 1;
+}
+
+.sidebar-button:hover > span{
+    opacity: 1;
+}
+
+.sidebar-button p{
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.sidebar.open :is(.sidebar-button p){
+    opacity: 1;
+}
+
+.btns-none{
+    opacity: 0;
+    transition: opacity 0.4s;
+    pointer-events: none;
+}
