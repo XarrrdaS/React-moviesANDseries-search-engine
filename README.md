@@ -1,4 +1,4 @@
-# Search engine for movies & TV series that I designed and made myself
+# Search engine for movies & TV series 
 To make the application work correctly, install 'node_modules' via `npm install` first.<br>
 Then, run the react app `npm start`.<br>
 The application fetches data about movies and series from the API `https://www.themoviedb.org`.<br>
