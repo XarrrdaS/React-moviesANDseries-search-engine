@@ -21,5 +21,3 @@ Here you can see that I selected a movie category and typed in the title of the 
 ![Alt text](/screenshots/screenshot6.png?raw=true)
 Here's an example of what happens when an app can't display any data about what you typed in the search box.<br>
 This text is animated, as does the loading circle when you search movies/series, expand a category drop-down or click a search box.
-
-<sub>MADE WITH HEARTH 🖤</sub>
